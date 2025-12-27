@@ -1,0 +1,27 @@
+baseURL = 'https://kalarani.github.io/paattu-pusthakam'
+languageCode = 'en-us'
+title = 'பாட்டு புஸ்தகம்'
+theme = ['vortisil']
+
+[[menus.main]]
+    identifier = "home"
+    url = "/"
+    weight = 1
+
+[[menus.main]]
+    identifier = "about"
+    url = "/about"
+    weight = 2
+
+[[menus.main]]
+    identifier = "songs"
+    url = "/songs"
+    weight = 3
+
+[[menus.main]]
+    identifier = "search"
+    url = "/search"
+    weight = 4
+
+[outputs]
+    home = ["HTML", "JSON"]
