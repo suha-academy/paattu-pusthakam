@@ -23,7 +23,7 @@ postsSearch = function () {
 
     const results = indexData.filter(item => {
         const isExcluded = item.permalink.includes('/about') || item.permalink.includes('/search');
-        return !isExcluded && (regex.test(item.title) || regex.test(item.content));
+        return !isExcluded && (regex.test(item.title) || regex.test(item.content) || regex.test(item.raagam));
     });
     
     results.forEach(item => {
@@ -44,7 +44,7 @@ postsSearch = function () {
             content = content.substring(0, 100);
         } else {
             const match = content.match(new RegExp(`.{0,50}${query}.{0,50}`, 'gi'));
-            content = match ? match[0] : '';
+            content = match ? match[0] : content.substring(0, 100);
         }
 
         content = content.replace(regex, '<strong>$&</strong>');
