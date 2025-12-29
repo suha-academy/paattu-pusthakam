@@ -24,6 +24,7 @@
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL }}" class="navbar-link-item">{{ index $l10n .Identifier }}</a>
                 {{ end }}
+                <a id="lang-toggle-btn" href="#" class="navbar-link-item"></a>
             </div>
             <div class="theme-toggle">
                 <div id="theme-toggle-btn">
