@@ -4,6 +4,7 @@ title = 'கருணை தெய்வமே கற்பகமே'
 raagam = ''
 taalam = ''
 author = ''
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/karunai-deivamae.ogg" >}}

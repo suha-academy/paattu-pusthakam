@@ -4,6 +4,7 @@ title = 'ஹிமகிரி தனயே ஹேமலதே'
 raagam = 'சுத்த தன்யாசி'
 taalam = 'ஆதி'
 author = 'H.N. முத்தையா பாகவதர்'
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/himagiri-thanayae.ogg" >}}

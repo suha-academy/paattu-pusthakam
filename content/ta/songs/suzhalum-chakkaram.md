@@ -4,6 +4,7 @@ title = 'சுழலும் சக்கரம்'
 raagam = ''
 taalam = ''
 author = ''
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/suzhalum-chakkaram.mp4" >}}

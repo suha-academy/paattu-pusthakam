@@ -4,6 +4,7 @@ title = 'சஞ்சலம் தரலாகுமா'
 raagam = 'சுபபந்துவராளி'
 taalam = 'ஆதி'
 author = ''
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/sanchalam-tharalaaguma.ogg" >}}

@@ -1,6 +1,7 @@
 +++
 date = '2025-12-27T12:46:52+05:30'
 title = 'கணேச பஞ்சரத்னம்'
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/ganesha-pancharatnam.mp4" >}}

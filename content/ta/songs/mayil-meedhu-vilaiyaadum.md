@@ -4,6 +4,7 @@ title = 'மயில் மீது விளையாடும்'
 raagam = 'வசந்தி'
 taalam = 'ஆதி'
 author = 'சாத்தூர் கற்பகம்'
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/mayil-meedhu-vilaiyaadum.ogg" >}}

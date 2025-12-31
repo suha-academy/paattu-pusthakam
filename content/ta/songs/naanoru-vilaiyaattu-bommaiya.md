@@ -4,6 +4,7 @@ title = 'நானொரு விளையாட்டு பொம்மைய
 raagam = 'நவரசகானடா'
 taalam = 'ஆதி'
 author = 'பாபநாசம் சிவன்'
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/naanoru-vilaiyaattu-bommaiya.ogg">}}

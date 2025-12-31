@@ -4,6 +4,7 @@ title = 'தேவி நீயே துணை'
 raagam = ''
 taalam = ''
 author = ''
+tags = ['4-jan-2026']
 +++
 
 ## பல்லவி

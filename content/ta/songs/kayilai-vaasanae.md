@@ -4,6 +4,7 @@ title = 'கைலை வாசனே'
 raagam = 'மோகனம்'
 taalam = 'ஆதி / ஏகம்'
 author = ''
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/kayilai-vaasanae.ogg" >}}

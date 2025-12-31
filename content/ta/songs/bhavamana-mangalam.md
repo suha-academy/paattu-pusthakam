@@ -4,6 +4,7 @@ title = 'பவமான மங்களம்'
 raagam = ''
 taalam = ''
 author = ''
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/bhavamana-mangalam.ogg" >}}

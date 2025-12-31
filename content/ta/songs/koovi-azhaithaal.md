@@ -4,6 +4,7 @@ title = 'கூவி அழைத்தால்'
 raagam = 'வலசி'
 taalam = 'ஆதி'
 author = ''
+tags = ['4-jan-2026']
 +++
 
 {{< audio "audio/koovi-azhaithaal.ogg" >}}
