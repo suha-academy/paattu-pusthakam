@@ -10,12 +10,16 @@
 </section>
 
 <section class="posts" id="posts">
+    {{ $posts_pages := where site.RegularPages "Type" "songs" }}
 
-    <div class="section-title">{{ index $l10n "songs" }}</div>
+    <div class="posts">
+        {{ $pages := where .Site.RegularPages "Type" "songs" }}
+        {{ $grouped := $pages.ByTitle }}
+        {{ $paginator := .Paginate $grouped }}
 
-    <div class="posts-list">
-        {{ $posts_pages := where site.RegularPages "Type" "songs" }}
-        {{ range first 3 $posts_pages }}
+        <h1>{{ index $l10n "songs" }} ({{ len $pages }})</h1>
+
+        {{ range $paginator.Pages }}
         <div class="posts-item">
             <div class="posts-date">
                 {{ .Date | dateFormat "2006-01-02" }}
@@ -27,8 +31,9 @@
             </div>
         </div>
         {{ end }}
-    </div>
 
+        {{ partial "pagination.html" . }}
+    </div>
 </section>
 
 {{ end }}
