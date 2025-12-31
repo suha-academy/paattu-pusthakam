@@ -28,9 +28,12 @@
 {{ end }}
 <meta name="twitter:card" content="summary_large_image">
 
-<link rel="shortcut icon" href="/assets/imgs/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/favicon-16x16.png">
+{{ $favicon := resources.GetMatch "/assets/imgs/favicon.ico" }}
+<link rel="shortcut icon" href="{{ $favicon.RelPermalink }}">
+{{ $favicon32 := resources.GetMatch "/assets/imgs/favicon-32x32.png" }}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}">
+{{ $favicon16 := resources.GetMatch "/assets/imgs/favicon-16x16.png" }}
+<link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/imgs/apple-touch-icon.png">
 
 {{ with resources.Get "/assets/scss/custom.scss" }}
