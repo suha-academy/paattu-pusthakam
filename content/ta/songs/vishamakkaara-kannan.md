@@ -4,6 +4,7 @@ title = 'விஷமக்காரக் கண்ணன்'
 raagam = 'செஞ்சுருட்டி'
 taalam = 'ஆதி'
 author = 'ஊத்துக்காடு வெங்கட சுப்பையர்'
+tags = ['4-jan-2026']
 +++
 
 {{< youtube id=sLHgrlGMJCU start=9 >}}

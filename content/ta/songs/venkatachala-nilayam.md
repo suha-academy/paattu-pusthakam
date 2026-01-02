@@ -4,6 +4,7 @@ title = 'வேங்கடாசல நிலையம்'
 raagam = 'சிந்து பைரவி'
 taalam = 'ஆதி'
 author = 'புரந்தரதாசர்'
+tags = ['4-jan-2026']
 +++
 
 {{< youtube id=timkYEUn-Ps start=58 >}}
