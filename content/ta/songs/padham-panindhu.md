@@ -6,6 +6,8 @@ taalam = ''
 author = ''
 +++
 
+{{< audio "audio/padham-panindhu.ogg" >}}
+
 ## பல்லவி
 பதம் பணிந்து மலரெடுத்தோம்\
 பாமாலை - புகழ்மாலை\
