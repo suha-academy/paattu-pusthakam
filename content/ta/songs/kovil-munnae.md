@@ -6,6 +6,8 @@ taalam = ''
 author = ''
 +++
 
+{{< audio "audio/kovil-munnae.ogg" >}}
+
 (மத்யம ஸ்ருதி)
 
 கோவில் முன்னே கூடி நின்று\
