@@ -7,6 +7,8 @@ author = ''
 tags = ['4-jan-2026']
 +++
 
+{{< audio "audio/devi-neeyae-thunai.mp4" >}}
+
 ## பல்லவி
 
 தேவி நீயே துணை\
