@@ -11,7 +11,7 @@ author = 'Paapanaasam Sivan'
 ## Pallavi
 
 Nee Irangayenil Pughaledhu Amba\
-Neela Jagannathan Marbil Uraidiru (urai thiru)
+Nikila Jagannathan Marbil Uraidiru (urai thiru)
 
 ## Anupallavi
 
